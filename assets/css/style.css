@@ -226,7 +226,8 @@ h6 {
 .main-nav a:hover,
 .main-nav .active>a,
 .main-nav li:hover>a {
-    color: #007bff;
+    color: #f5f5f5;
+    background-color: #244d8b;
     text-decoration: none;
 }
 
@@ -554,7 +555,18 @@ section {
 --------------------------------*/
 
 .section-bg {
-    background: #ecf5ff;
+    padding: 60px 0;
+    /* background: #004a99;
+     */
+}
+
+.section-bg .section-header h3,
+.section-bg .section-header p {
+    color: #fff;
+}
+
+.section-bg2 {
+    background-color: rgb(80, 77, 77);
 }
 
 
@@ -763,9 +775,8 @@ section {
 
 #services .description {
     font-size: 14px;
-    margin-left: 40px;
-    line-height: 24px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 #app {
@@ -892,7 +903,7 @@ section {
 
 #why-us {
     padding: 60px 0;
-    background: #004a99;
+    background-image: url(../img/ser4.png);
 }
 
 #why-us .section-header h3,
@@ -1372,8 +1383,6 @@ section {
 }
 
 #clients .clients-wrap {
-    border-top: 1px solid #d6eaff;
-    border-left: 1px solid #d6eaff;
     margin-bottom: 30px;
 }
 
