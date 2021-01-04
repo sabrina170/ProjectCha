@@ -182,7 +182,7 @@ h6 {
 
 #header .logo img {
     padding: 0;
-    margin: 2px ;
+    margin: 2px;
     max-height: 40px;
 }
 
@@ -566,7 +566,7 @@ section {
 }
 
 .section-bg2 {
-    background-color: rgb(80, 77, 77);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -983,6 +983,85 @@ section {
 }
 
 
+/* Setion testimoniales */
+
+#testimonials .section-header h3,
+#testimonials .section-header p {
+    color: #fff;
+}
+
+#testimonials .card {
+    background: #fff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    color: #56585a;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    #testimonials .card {
+        margin: 0;
+    }
+}
+
+#testimonials .card i {
+    font-size: 48px;
+    padding-top: 15px;
+    color: #56585a;
+}
+
+#testimonials .card:hover {
+    background: #c4c5c7;
+    border-color: #bec2c7;
+}
+
+#testimonials .card h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#testimonials .card p {
+    font-size: 15px;
+    color: #000000;
+}
+
+#testimonials .card .readmore {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    border-bottom: #e9ecf0 solid 2px;
+}
+
+#testimonials .card .readmore:hover {
+    border-bottom: #fff solid 2px;
+}
+
+#testimonials .counters {
+    padding-top: 40px;
+}
+
+#testimonials .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #fff;
+}
+
+#testimonials .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #cce5ff;
+}
+
+
 /* Portfolio Section
 --------------------------------*/
 
@@ -1379,7 +1458,7 @@ section {
 
 #clients {
     padding: 60px 0;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 0px 12px 0px rgba(177, 51, 51, 0.1);
 }
 
 #clients .clients-wrap {
