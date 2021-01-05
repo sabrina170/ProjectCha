@@ -409,7 +409,7 @@ h6 {
 #intro {
     width: 100%;
     position: relative;
-    background: url("../img/Fondo.jpg") center bottom no-repeat;
+    background: url("../img/intro-bg.png") center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
 }
@@ -781,7 +781,7 @@ section {
 
 #app {
     padding: 10px;
-    background-image: url(../img/8.png);
+    background-image: url(../img/FondoApp4.png);
 }
 
 .btn-get-started2,
